@@ -13,11 +13,11 @@ soma: int = a + b
 subtracao: int = b - a
 multiplicacao: int = a * b
 divisao: int = b / a
-print("Calculando a = ", a, "e b =", b)
+print("Calculando a =", a, "e b =", b)
 print("Soma:", soma)
-print("Subtração:", subtracao)
-print("Multiplicação:", multiplicacao)
-print("Divisão:", divisao)
+print("Subtracao:", subtracao)
+print("Multiplicacao:", multiplicacao)
+print("Divisao:", divisao)
 
 # Questao 4
 nome = input("Digite seu nome: ")
@@ -52,10 +52,10 @@ print("Insira as duas notas:")
 nota1 = float(input("Nota 1: "))
 nota2 = float(input("Nota 2: "))
 media = (nota1 + nota2) / 2
-print("A média é:", media)
+print("A media é:", media)
 if media >= 7:
     print("Aprovado")
-elif media >= 5 & media <= 6.9:
-    print("Recuperação")
+elif media >= 5 and media <= 6.9:
+    print("Recuperacao")
 else:
     print("Reprovado")
