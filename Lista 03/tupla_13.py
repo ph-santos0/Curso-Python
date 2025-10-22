@@ -1,0 +1,5 @@
+tupla_13 = (5, 12, 3, 8, 22, 1, 9, 15, 4, 10)
+print(f"Tupla: {tupla_13}")
+print(f"Menor número: {min(tupla_13)}")
+print(f"Maior número: {max(tupla_13)}")
+print(f"Quantidade de elementos: {len(tupla_13)}")

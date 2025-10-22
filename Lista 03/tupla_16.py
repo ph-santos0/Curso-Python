@@ -1,0 +1,6 @@
+tupla_16 = (5, 10, 15, 10, 20, 10)
+print(f"Tupla: {tupla_16}")
+contagem_10 = tupla_16.count(10)
+print(f"O número 10 aparece: {contagem_10} vezes")
+indice_15 = tupla_16.index(15)
+print(f"O índice da primeira ocorrência de 15 é: {indice_15}")
