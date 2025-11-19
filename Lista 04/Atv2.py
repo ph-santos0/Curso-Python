@@ -1,6 +1,5 @@
 lista = []
 
-
 def quadrado(lista):
     lista2 = []
     for numero in lista:
